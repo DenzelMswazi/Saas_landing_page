@@ -1,8 +1,10 @@
-import React from 'react'
+import Header from "./sections/header"
 
 const App = () => {
   return (
-    <div className="text-3xl font-bold underline">Hello World</div>
+    <main className="overflow-hidden">
+     <Header />
+    </main>
   )
 }
 export default App
